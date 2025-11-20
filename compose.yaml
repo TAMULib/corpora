@@ -162,7 +162,7 @@ services:
         apt-get update -y
         apt-get install nano git -y
         tail -f /dev/null
-        # Use the following command to clone the nvs repo as need in the container shell:
+        # Use the following command to clone the nvs repo as needed in the container shell:
         # git clone https://github.com/newvariorumshakespeare/corpora-plugin.git /opt/corpora/plugins/nvs
 
 networks:
