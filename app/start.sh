@@ -3,7 +3,7 @@
 echo "CHECKING PLUGIN DEPENDENCIES..."
 export PYTHONUSERBASE=/conf/plugin_modules
 mkdir -p /conf/plugin_modules
-cd /apps/corpora/plugins
+#cd /apps/corpora/plugins
 find ./ -type f -name "requirements.txt" -exec pip3 install --user -r "{}" \;
 
 if [ ! -f /apps/initialized ]; then
